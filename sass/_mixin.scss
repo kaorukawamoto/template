@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*mixin*/
+
+$sp:  "only screen and (max-width:640px)";
+$tab: "only screen and (min-width:641px) and (max-width:959px)";
+$pc:  "only screen and (min-width:960px)";
+
+@media #{$sp} {
+    //640px以下
+}
+@media #{$tab} {
+    //641px〜959pxまで
+}
+@media #{$pc} {
+    //960px以上
+}
